@@ -65,6 +65,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 alias cls='clear'
 alias dog='cat'
 alias ls='ls --color'
+alias v='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim'
+alias sts='/opt/sts4/SpringToolSuite4'
 
 # Shell integrations
 eval "$(fzf --zsh)"

@@ -216,7 +216,7 @@ bindsym Mod1+r mode "resize"
 
 exec_always --no-startup-id xinput set-prop 11 271 1
 
-exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpapers/tokyo-night.png
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpapers/anime-wallpaper.jpg
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)

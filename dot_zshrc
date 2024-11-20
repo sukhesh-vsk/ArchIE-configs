@@ -67,6 +67,11 @@ alias dog='cat'
 alias ls='ls --color'
 alias v='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim'
 alias sts='/opt/sts4/SpringToolSuite4'
+alias gcam='git commit -m'
+# Android Studio Env Config
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Shell integrations
 eval "$(fzf --zsh)"
